@@ -1,0 +1,26 @@
+{
+  "name": "bingoals",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "patch:ios": "bun src-tauri/scripts/patch-ios-xcodeproj.js",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.9.1",
+    "@tauri-apps/plugin-dialog": "~2",
+    "@tauri-apps/plugin-opener": "^2.5.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.9.6",
+    "typescript": "~5.6.3",
+    "vite": "^6.4.1",
+    "vitest": "^4.0.17"
+  }
+}
