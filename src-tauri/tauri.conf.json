@@ -2,23 +2,21 @@
   "$schema": "https://schema.tauri.app/config/2.0.0",
   "productName": "Bingoals",
   "version": "0.1.0",
-  "identifier": "com.bingoals.app",
+  "identifier": "v1truv1us.bingoals.app",
   "build": {
-    "beforeBuildCommand": "echo 'Building frontend...' && mkdir -p src-tauri/target/frontend-dist && cp -r dist/* src-tauri/target/frontend-dist/",
-    "beforeDevCommand": "echo 'Starting dev server...' && python3 -m http.server 8000 --directory dist",
-    "devUrl": "http://localhost:8000",
-    "frontendDist": "../src-tauri/target/frontend-dist"
+    "beforeBuildCommand": "bun run build",
+    "beforeDevCommand": "bun run dev",
+    "devUrl": "http://localhost:1420",
+    "frontendDist": "dist"
   },
   "app": {
-    "security": {
-      "csp": "default-src 'self'"
-    },
     "windows": [
       {
         "title": "Bingoals",
         "width": 800,
         "height": 600,
-        "resizable": true
+        "resizable": true,
+        "label": "main"
       }
     ]
   },
@@ -32,10 +30,5 @@
       "icons/icon.icns",
       "icons/icon.ico"
     ]
-  },
-  "plugins": {
-    "dialog": {},
-    "opener": {},
-    "fs": {}
   }
 }

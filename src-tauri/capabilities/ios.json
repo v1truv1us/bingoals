@@ -1,0 +1,12 @@
+{
+  "$schema": "../gen/schemas/iOS-schema.json",
+  "identifier": "ios",
+  "description": "iOS capability enabling native dialog APIs (confirm/message) for the main window",
+  "windows": ["main"],
+  "platforms": ["iOS"],
+  "permissions": [
+    "core:default",
+    "dialog:allow-confirm",
+    "dialog:allow-message"
+  ]
+}

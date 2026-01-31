@@ -9,12 +9,20 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "patch:ios": "bun src-tauri/scripts/patch-ios-xcodeproj.js",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "cleanup": "bash ./scripts/quick-cleanup.sh",
+    "cleanup:deep": "bash ./scripts/cleanup-dev.sh",
+    "devspace": "echo '📱 Development Disk Usage:' && du -sh ~/Library/Developer/Xcode/DerivedData 2>/dev/null || echo '   Not found' && echo '🦀 Cargo:' && du -sh ~/.cargo 2>/dev/null || echo '   Not found' && echo '📦 NPM:' && du -sh ~/.npm 2>/dev/null || echo '   Not found' && echo '💾 Available:' && df -h /System/Volumes/Data | tail -1 | awk '{print \"   \" $4 \" free (\" int($5) \"% used)\"}'",
+    "build:ios:sim": "echo '🧹 Quick cleanup...' && npm run cleanup && echo '📱 Building iOS...' && CARGO_BUILD_JOBS=4 bun tauri ios dev \"iPhone 16 Pro\"",
+    "build:ios": "echo '🧹 Quick cleanup...' && npm run cleanup && echo '📱 Building iOS...' && CARGO_BUILD_JOBS=4 bun tauri ios dev",
+    "ios:beta": "fastlane beta",
+    "ios:build": "fastlane build",
+    "ios:bump": "fastlane bump",
+    "ios:sync-signing": "fastlane sync_signing"
   },
   "dependencies": {
     "@tauri-apps/api": "^2.9.1",
-    "@tauri-apps/plugin-dialog": "~2",
+    "@tauri-apps/plugin-dialog": "~2.6.0",
     "@tauri-apps/plugin-opener": "^2.5.3"
   },
   "devDependencies": {

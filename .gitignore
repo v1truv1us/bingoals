@@ -1,1 +1,14 @@
 src-tauri/target/
+src-tauri/gen/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Fastlane API keys
+fastlane/AuthKey_*.p8
+
+# Build artifacts
+build/
+*.ipa
