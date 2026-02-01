@@ -1,0 +1,14 @@
+/Users/johnferguson/Github/bingoals/target/debug/deps/serde-98205d6d55434af3.d: /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/johnferguson/Github/bingoals/target/debug/build/serde-f06b58812101250b/out/private.rs
+
+/Users/johnferguson/Github/bingoals/target/debug/deps/libserde-98205d6d55434af3.rlib: /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/johnferguson/Github/bingoals/target/debug/build/serde-f06b58812101250b/out/private.rs
+
+/Users/johnferguson/Github/bingoals/target/debug/deps/libserde-98205d6d55434af3.rmeta: /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/johnferguson/Github/bingoals/target/debug/build/serde-f06b58812101250b/out/private.rs
+
+/Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/johnferguson/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/johnferguson/Github/bingoals/target/debug/build/serde-f06b58812101250b/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/johnferguson/Github/bingoals/target/debug/build/serde-f06b58812101250b/out
